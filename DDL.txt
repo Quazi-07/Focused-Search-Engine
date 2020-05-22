@@ -1,0 +1,25 @@
+create table keyword_table (
+kw_ID int auto_increment,
+keyword varchar(80),
+primary key (kw_ID),
+FULLTEXT KEY keyword (keyword)
+);
+
+
+create table url_info_table (
+url_ID int auto_increment,
+url varchar(500),
+url_title varchar(300),
+url_description varchar(800),
+primary key (url_ID),
+FULLTEXT KEY url_title (url_title),
+FULLTEXT KEY url_description (url_description)
+);
+
+
+create table make_relation (
+kw_ID int,
+url_ID int,
+primary key (kw_ID,url_ID) 
+);
+
