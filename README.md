@@ -1,2 +1,4 @@
 # Focused-Search-Engine
 This is a focused search engine which can crawl data from WWW and then insert those in my server database. Then search data based on your given keywords and finally show and rank the result.
+
+In this project, I develop a focused search engine name “UR Search Engine”. This  search  engine  serves  like  all  other  search  engine.  Unfortunately,  because  of  data  storage limitation I limit this engine up to 500 maximum data indexing capability. Although, this can work beyond this limit. Design of my web crawler is done by PHP as programming language. Besides, I use HTML, UNIX command, SQL, MySQL server  and so on for database and data indexing. Popular BFS  (Breadth First Search)  algorithm is used for crawling on the WWW to collect data. Full-Text search  using  Boolean Mode is used for searching and ranking results.  TF/IDF  (Term Frequency/ Inverse Document Frequency) algorithm is used for ranking the searching results.
